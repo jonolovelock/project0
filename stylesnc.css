@@ -1,0 +1,41 @@
+
+#homeRow {
+  padding: 20px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/*
+$color: red;
+
+p {
+  color: $color;
+}
+
+ul {
+  color: $color;
+}
+/*if wider than 1000px be blue*/
+/*
+@media (min-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/*if smaller than 1000px be red*/
+/*
+@media (max-width:999px) {
+    body {
+        background-color: red;
+    }
+}
+*/
