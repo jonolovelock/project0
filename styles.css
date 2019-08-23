@@ -1,15 +1,13 @@
-$color: black;
-
 p {
-  color: $color;
+  color: black;
 }
 
 ul {
-  color: $color;
+  color: black;
 }
 
 h1 {
-  color: $color;
+  color: black;
 }
 
 /*if wider than 1000px be blue*/
@@ -33,3 +31,5 @@ h1 {
 }
 
  */
+
+/*# sourceMappingURL=styles.css.map */
