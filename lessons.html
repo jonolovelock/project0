@@ -43,7 +43,33 @@
     </nav>
 
     <!-- Page Body -->
-    <h1>Book a lesson with Stuart</h1>
+    <h2 class="center">Book a lesson with Stuart</h2>
+
+    <form class="centerForm justify-content-center">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Your email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+            <label for="exampleFormControlSelect2">Lesson Type</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Conducting</option>
+              <option>Piano</option>
+              <option>Trombone</option>
+              <option>Accompaniment</option>
+              <option>Music Production</option>
+            </select>
+      </div>
+      <div class="form-group">
+            <label for="exampleFormControlFile1">Please attach any relevant files</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      <div class="form-group">
+            <label for="exampleFormControlInput1">Please add any additional information</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Additional Information">
+      </div>
+      <button class="btn btn-primary" type="submit">Book Now</button>
+    </form>
 
         <!-- Common Scripts -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,4 +1,4 @@
-$color: black;
+$color: #3b3831;
 
 p {
   color: $color;
@@ -8,7 +8,7 @@ ul {
   color: $color;
 }
 
-h1 {
+h2 {
   color: $color;
 }
 
@@ -54,24 +54,45 @@ table {
   border: 1px;
 }
 
-/*if wider than 1000px be blue*/
-/*
-@media (min-width: 1000px) {
-    body {
-        background-color: blue;
+/* nested css */
+
+.wrapper {
+    text-align: center;
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+    li {
+      padding: 2px 5px;
+    }
+  }
+}
+
+.centerForm {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  align-content: center;
+  align-items: center;
+
+}
+
+/*control all form widths based on screen size*/
+
+/*if bigger than 700px, set max with as 800px*/
+
+@media (min-width: 700px) {
+    form {
+        max-width: 1200px;
     }
 }
 
-/*if smaller than 1000px be red*/
-/*
-@media (max-width:999px) {
-    body {
-        background-color: red;
+/*if smaller than 700px, set max with as 400px*/
+
+@media (max-width:699px) {
+    form {
+        max-width: 400px;
     }
 }
-
-#homeRow {
-  padding-top: 20px;
-}
-
- */
