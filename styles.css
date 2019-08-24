@@ -50,7 +50,7 @@ table {
   border: 1px;
 }
 
-/* nested css */
+/* nested css to style shows.html list */
 .wrapper {
   text-align: center;
 }
@@ -66,6 +66,7 @@ table {
   padding: 2px 5px;
 }
 
+/* center form on lessons.html*/
 .centerForm {
   margin-left: 3rem;
   margin-right: 3rem;
