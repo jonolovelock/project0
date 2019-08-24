@@ -10,7 +10,7 @@ As the first instance, this project is closer to a 'mock up' of what's to come.
 
 Files includes:
 
-*Common Header*:
+*Common Header*: \n
 Each page contains bootstrap 4 (downloaded version) and it's dependencies
 
 *Common Body*: 
