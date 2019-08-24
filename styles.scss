@@ -12,9 +12,21 @@ h1 {
   color: $color;
 }
 
-.homeimg {
+%gridImg {
     width: 80%;
     height: 80%;
+}
+
+.homeImg {
+  @extend %gridImg;
+  padding-top: 1rem;
+}
+
+.stuartImg {
+  @extend %gridImg;
+  padding-top: 2rem;
+  border: #6f42c1;
+  position: center;
 }
 
 /*currently impacts all headers and table on services*/

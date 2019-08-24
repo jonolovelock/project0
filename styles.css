@@ -10,9 +10,19 @@ h1 {
   color: black;
 }
 
-.homeimg {
+.stuartImg, .homeImg {
   width: 80%;
   height: 80%;
+}
+
+.homeImg {
+  padding-top: 1rem;
+}
+
+.stuartImg {
+  padding-top: 2rem;
+  border: #6f42c1;
+  position: center;
 }
 
 /*currently impacts all headers and table on services*/
