@@ -15,6 +15,31 @@ h1 {
   height: 80%;
 }
 
+/*currently impacts all headers and table on services*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#ServiceTable {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tablePad {
+  padding: 1rem;
+}
+
+table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+table {
+  border: 1px;
+}
+
 /*if wider than 1000px be blue*/
 /*
 @media (min-width: 1000px) {
