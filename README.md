@@ -1,20 +1,17 @@
 # Project 0
 
-Web Programming with Python and JavaScript
-
 This project represents the first instance of what will evolve into a fully fledged web application.
-Currently the project has five static html pages. But over time it will grow into a proper web application using python, javascript, flask and other technologies
-where users can interact with the website in order to book lessons from music teacher Stuart Andrew. Additionally they will be able to see a list of performances that Stuart will be involved in.
+Currently the project has five static html pages. But over time it will grow into a proper web application using python, javascript, flask and other technologies where users can interact with the website in order to book lessons from music teacher Stuart Andrew. Additionally they will be able to see a list of performances that Stuart will be involved in.
 As the first instance, this project is closer to a 'mock up' of what's to come.
 
 
 Files includes:
 
 *Common Header*: 
-Each page contains bootstrap 4 (downloaded version) and it's dependencies
+Each file contains bootstrap 4 (downloaded version) and it's dependencies
 
 *Common Body*: 
-Each Body section contains a bootstrap navbar, and Jquery scripts required to operate navbar toggle features
+Each file body section contains a bootstrap navbar, and Jquery scripts required to operate navbar toggle features
 
 index.html: 
 This is the main landing page for the site. It includes the common navbar, and uses the bootstrap grid and columns to display piano images
